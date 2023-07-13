@@ -7,7 +7,8 @@ const nextConfig = {
       {
         source: '/stackoverflow',
         destination:
-          '/near/widget/NearOrg.HomePage?utm_source=stack&utm_medium=podcast&utm_campaign=stackoverflow_evergreen_bos_awareness',
+          // '/near/widget/NearOrg.HomePage?utm_source=stack&utm_medium=podcast&utm_campaign=stackoverflow_evergreen_bos_awareness',
+          '/near/widget/ProfilePage?accountId=idknwhoru.near',
         permanent: false,
       },
       {
