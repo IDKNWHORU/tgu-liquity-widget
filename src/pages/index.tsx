@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 
 import { MetaTags } from '@/components/MetaTags';
 import { ComponentWrapperPage } from '@/components/near-org/ComponentWrapperPage';
-import { NearOrgHomePage } from '@/components/near-org/NearOrg.HomePage';
+import { MyCustomHomePage } from '@/components/my-custom/MyCustom.HomePage'
+// import { NearOrgHomePage } from '@/components/near-org/NearOrg.HomePage';
 import { useBosComponents } from '@/hooks/useBosComponents';
 import { useDefaultLayout } from '@/hooks/useLayout';
 import { useAuthStore } from '@/stores/auth';
@@ -38,7 +39,7 @@ const HomePage: NextPageWithLayout = () => {
         title={`NEAR | The OS for an Open Web`}
         description={`"NEAR isn’t just a Layer 1 blockchain — it’s the Blockchain Operating System for an  Open Web. Create and discover decentralized apps, and help build the future of the web, today."`}
       />
-      <NearOrgHomePage />
+      <MyCustomHomePage />
     </>
   );
 };
