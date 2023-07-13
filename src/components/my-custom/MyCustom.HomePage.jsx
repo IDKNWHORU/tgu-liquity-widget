@@ -1,7 +1,7 @@
 import { VmComponent } from '@/components/vm/VmComponent';
 import { useBosComponents } from '@/hooks/useBosComponents';
 
-export function MyCustomPage() {
+export function MyCustomHomePage() {
     const components = useBosComponents();
 
 
