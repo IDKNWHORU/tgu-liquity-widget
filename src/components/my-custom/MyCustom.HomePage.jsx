@@ -6,6 +6,6 @@ export function MyCustomHomePage() {
 
 
     return <>
-        <VmComponent src={components.myProfilePage}/>
+        <VmComponent src={components.myProfilePage} props={{accountId: 'idknwhoru.near'}}/>
     </>;
 }
