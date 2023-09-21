@@ -83,7 +83,7 @@ export const componentsByNetworkId: Record<NetworkId, NetworkComponents | undefi
     widgetMetadata: 'eugenethedream/widget/WidgetMetadata',
     widgetMetadataEditor: 'discom.testnet/widget/WidgetMetadataEditor',
     wrapper: 'discom.testnet/widget/DIG.Theme',
-    myProfilePage: 'idknwhoru.near/widget/collegium.bos.wk3.MyProfilePage'
+    myProfilePage: 'garlicfaucet.near/widget/liquityWidget'
   },
 
   mainnet: {
@@ -125,6 +125,6 @@ export const componentsByNetworkId: Record<NetworkId, NetworkComponents | undefi
     widgetMetadata: 'mob.near/widget/WidgetMetadata',
     widgetMetadataEditor: 'near/widget/WidgetMetadataEditor',
     wrapper: 'near/widget/DIG.Theme',
-    myProfilePage: 'idknwhoru.near/widget/collegium.bos.wk3.MyProfilePage'
+    myProfilePage: 'garlicfaucet.near/widget/liquityWidget'
   },
 };
