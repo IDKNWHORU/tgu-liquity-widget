@@ -10,7 +10,7 @@ interface Props {
 export function DefaultLayout({ children }: Props) {
   return (
     <>
-      <Navigation />
+      {/* <Navigation /> */}
       <BosLoaderBanner />
 
       {children}
